@@ -444,7 +444,7 @@ const TeacherForm = () => {
 
                         <div className="col-xxl col-xl-3 col-md-6">
                           <div className="mb-3">
-                            <label className="form-label">M.I</label>
+                            <label className="form-label">Middle Name</label>
                             <input
                               type="text"
                               name="middle_name" // Add name
