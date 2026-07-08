@@ -52,7 +52,7 @@ const ForgotPassword = () => {
         <div className="col-lg-6 d-none d-lg-flex align-items-center justify-content-center position-relative" style={{ background: "#fff" }}>
           <div className="text-center">
             <ImageWithBasePath
-              src="assets/img/authentication/authentication-03.jpg"
+              src="public/assets/img/authentication/authentication-03.svg"
               alt="Forgot Password Illustration"
               className="img-fluid"
               style={{ maxWidth: "500px" }}
