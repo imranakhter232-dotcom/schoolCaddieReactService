@@ -67,7 +67,7 @@ const SidebarDataRaw = [
           },
 
            {
-            label: "Attandance",
+            label: "Attendance",
             link: routes.addAttendance,
             icon: "ti ti-pople",
             allowedRoles: [2],

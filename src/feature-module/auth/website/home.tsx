@@ -907,7 +907,7 @@ We aspire to create a future where every school — Islamic or non-Islamic — c
         THE ADVANTAGE
       </span>
       <h2 className="display-4 fw-800 mt-3 text-white">Why Choose SchoolCaddie</h2>
-      <p className="fs-5 text-light opacity-75 mt-3 mx-auto" style={{ maxWidth: '700px' }}>
+      <p className="fs-14 text-light opacity-75 mt-3 mx-auto" style={{ maxWidth: '700px' }}>
         Built with purpose, designed for trust, and crafted for modern schools.
       </p>
     </div>
