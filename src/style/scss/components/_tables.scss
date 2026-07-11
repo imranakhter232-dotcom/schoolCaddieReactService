@@ -554,3 +554,58 @@ table.table-bordered thead tr th p {
       }
   }
 }
+
+.marks-header th {
+    background-color: #2C3E7A;  // Darker, better contrast
+    color: #ffffff !important;
+    font-weight: 700;
+    padding: 12px;
+}
+
+.marks-table tbody tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+.marks-table tbody tr:nth-child(even) td {
+    background-color: #F8FAFC;
+}
+.marks-table tbody tr:hover td {
+    background-color: #E8EEF7 !important;
+}
+.marks-total-row {
+    td {
+        background-color: #334155 !important;
+        color: white !important;
+        font-weight: 700;
+        padding: 12px;
+        border-color: #1e293b;
+    }
+}
+.marks-table {
+    table-layout: auto;
+}
+
+.marks-table th,
+.marks-table td {
+    vertical-align: middle;
+}
+
+.subject-cell {
+    text-align: center !important;
+}
+
+.subject-text {
+    display: inline-block;
+    text-align: left !important;
+  min-width: 180px;
+}
+
+.marks-input::-webkit-outer-spin-button,
+.marks-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.marks-input {
+    -moz-appearance: textfield;
+}
