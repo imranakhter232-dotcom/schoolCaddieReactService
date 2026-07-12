@@ -234,7 +234,7 @@ const SidebarDataRaw = [
       {
         label: "School Profile",
         link: routes.schoolProfile,
-        icon: "ti ti-building-school",
+        icon: "ti ti-building",
         allowedRoles: [1],
       },
     ],
