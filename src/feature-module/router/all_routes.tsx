@@ -216,6 +216,7 @@ export const all_routes = {
   studentResult: "/student/student-result/:id",
   studentLibrary: "/student/student-library",
   studentList: "/student/student-list",
+  reportCard: "/student/report-card",
   addStudent: "/student/add-student",
   editStudent: "/student/edit-student",
   teacherDetails: "/teacher/teacher-details",

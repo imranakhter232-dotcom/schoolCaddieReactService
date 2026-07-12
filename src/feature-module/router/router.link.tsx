@@ -130,6 +130,7 @@ import StudentLibrary from "../peoples/students/student-details/studentLibrary";
 import StudentResult from "../peoples/students/student-details/studentResult";
 import StudentTimeTable from "../peoples/students/student-details/studentTimeTable";
 import StudentList from "../peoples/students/student-list";
+import ReportCard from "../peoples/students/report-card";
 import StudentPromotion from "../peoples/students/student-promotion";
 import TeacherDetails from "../peoples/teacher/teacher-details/teacherDetails";
 import TeacherLeave from "../peoples/teacher/teacher-details/teacherLeave";
@@ -799,6 +800,11 @@ export const publicRoutes = [
     path: routes.studentList,
     element: <StudentList />,
        route: Route,
+  },
+  {
+    path: routes.reportCard,
+    element: <ReportCard />,
+    route: Route,
   },
   {
     path: routes.addStudent,

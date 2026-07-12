@@ -101,6 +101,11 @@ const SidebarDataRaw = [
             link: routes.studentList,
             allowedRoles: [1, 2, 3],
           },
+          {
+            label: "Report Card",
+            link: routes.reportCard,
+            allowedRoles: [1, 2, 3],
+          },
 
           {
             label: "All Students",
